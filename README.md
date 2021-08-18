@@ -27,13 +27,13 @@ CREATE TABLE IF NOT EXISTS `feature` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
-1. Edit file config.js and update the value according to your environment
+4. Edit file config.js and update the value according to your environment
 ```
 'db_host': 'localhost',
 'db_name': 'feature_switch',
 'db_user': 'root',
 'db_pass': '',
 ```
-1. Run `npm run start`
-1. Run Postman and import the collection from here https://www.getpostman.com/collections/4205a60257fb2154412b
-1. Start on requesting from Postman
+5. Run `npm run start`
+6. Run Postman and import the collection from here https://www.getpostman.com/collections/4205a60257fb2154412b
+7. Start on requesting from Postman
