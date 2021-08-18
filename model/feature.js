@@ -13,7 +13,8 @@ const sequelize = new Sequelize(
       maxIdleTime: 100,
       maxConnections: 5,
       evict: 0
-    }
+    },
+    timezone: '+08:00'
   }
 );
 
